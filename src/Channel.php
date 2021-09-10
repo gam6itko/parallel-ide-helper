@@ -18,14 +18,14 @@ class Channel
     /**
      * @return Channel
      */
-    public function make(string $name, ?int $capacity = null)
+    public static function make(string $name, ?int $capacity = null)
     {
     }
 
     /**
      * @return Channel
      */
-    public function open(string $name)
+    public static function open(string $name)
     {
     }
 
