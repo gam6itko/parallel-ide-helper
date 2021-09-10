@@ -7,7 +7,7 @@ namespace parallel;
  */
 final class Runtime
 {
-    public function __construct(?string $bootstrap)
+    public function __construct(?string $bootstrap = null)
     {
     }
 
