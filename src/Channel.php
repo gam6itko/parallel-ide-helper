@@ -38,7 +38,10 @@ class Channel
     {
     }
 
-    public function send(mixed $value): void
+    /**
+     * @param mixed $value
+     */
+    public function send($value): void
     {
     }
 
