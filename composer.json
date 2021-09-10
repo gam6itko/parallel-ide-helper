@@ -1,0 +1,19 @@
+{
+    "name": "gam6itko/parallel-ide-helper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gam6itko",
+            "email": "gam6itko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "parallel\\": "src"
+        }
+    }
+}
