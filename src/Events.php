@@ -5,7 +5,7 @@ namespace parallel;
 /**
  * @see https://www.php.net/manual/en/class.parallel-events.php
  */
-final class Events
+final class Events implements \Countable, \Iterator
 {
     /* Input */
     
@@ -42,6 +42,30 @@ final class Events
      * @return parallel\Events\Event|null
      */
     public function poll()
+    {
+    }
+
+    public function count()
+    {
+    }
+
+    public function current()
+    {
+    }
+
+    public function next()
+    {
+    }
+
+    public function key()
+    {
+    }
+
+    public function valid()
+    {
+    }
+
+    public function rewind()
     {
     }
 }
